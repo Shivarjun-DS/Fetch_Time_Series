@@ -77,5 +77,6 @@ def Prediction(df):
         print()
         
 if __name__ == '__main__':
-    df = load_file(r"C:\Users\SHIVARJUN\Downloads\data_daily.csv")
+    df = load_file("data_daily.csv")
     Prediction(df)
+    
